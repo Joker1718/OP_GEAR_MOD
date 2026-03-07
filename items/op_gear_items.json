@@ -28,7 +28,7 @@
     "flags": [ "STURDY", "WATERPROOF" ]
   },
   {
-    "type": "GENERIC",
+    "type": "MELEE",
     "id": "opg_god_blade",
     "name": { "str": "Blade of Doom" },
     "description": "Cuts through anything.",
@@ -50,9 +50,11 @@
     "symbol": "(",
     "color": "light_red",
     "skill": "rifle",
+    "ammo": [ "308" ],
     "range": 200,
-    "reload": 100,
     "ranged_damage": { "damage_type": "bullet", "amount": 1000 },
-    "ammo": [ "308" ]
+    "reload": 100,
+    "magazine_well": [ [ "308_magazine", 30 ] ],
+    "flags": [ "NEVER_JAMS" ]
   }
 ]
