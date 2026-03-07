@@ -53,19 +53,39 @@
     "symbol": "(",
     "color": "light_red",
     "skill": "rifle",
-    "ammo": [ "308" ],
+    "ammo": [ "308", "762_51" ],
     "ranged_damage": { "damage_type": "bullet", "amount": 1000 },
     "reload": 100,
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
         "magazine_well": "20 L",
-        "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
         "item_restriction": [ "308_magazine" ]
       }
     ],
     "flags": [ "NEVER_JAMS" ]
+  },
+  {
+    "id": "308_magazine",
+    "type": "MAGAZINE",
+    "name": { "str": "Destroyer Magazine" },
+    "description": "A magazine for the Reality Destroyer Rifle. It holds a massive amount of ammo.",
+    "weight": "100 g",
+    "volume": "500 ml",
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "light_red",
+    "ammo_type": [ "308", "762_51" ],
+    "capacity": 1000,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": { "308": 1000, "762_51": 1000 }
+      }
+    ]
   }
 ]

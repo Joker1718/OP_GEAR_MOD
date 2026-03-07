@@ -34,5 +34,17 @@
     "time": "1 s",
     "autolearn": true,
     "components": []
+  },
+  {
+    "type": "recipe",
+    "result": "308_magazine",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "1 s",
+    "autolearn": true,
+    "components": []
   }
 ]
