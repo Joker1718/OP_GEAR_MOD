@@ -1,0 +1,58 @@
+[
+  {
+    "type": "ARMOR",
+    "id": "opg_god_armor",
+    "name": { "str": "God Armor" },
+    "description": "Armor of absolute power.",
+    "weight": "1 g",
+    "volume": "250 ml",
+    "material": [ "superalloy" ],
+    "symbol": "[",
+    "color": "yellow",
+    "material_thickness": 20,
+    "armor": [
+      { "covers": [ "torso" ], "coverage": 100, "encumbrance": 0 },
+      { "covers": [ "head" ], "coverage": 100, "encumbrance": 0 },
+      { "covers": [ "arm_l", "arm_r" ], "coverage": 100, "encumbrance": 0 },
+      { "covers": [ "leg_l", "leg_r" ], "coverage": 100, "encumbrance": 0 }
+    ],
+    "environmental_protection": 100,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "200 L",
+        "max_contains_weight": "200 kg",
+        "moves": 100
+      }
+    ],
+    "flags": [ "STURDY", "WATERPROOF" ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "opg_god_blade",
+    "name": { "str": "Blade of Doom" },
+    "description": "Cuts through anything.",
+    "weight": "500 g",
+    "volume": "1 L",
+    "material": [ "steel" ],
+    "symbol": "/",
+    "color": "red",
+    "melee_damage": { "bash": 200, "cut": 500 },
+    "to_hit": 20
+  },
+  {
+    "type": "GUN",
+    "id": "opg_god_rifle",
+    "name": { "str": "Reality Destroyer Rifle" },
+    "description": "A weapon beyond science.",
+    "weight": "1 kg",
+    "volume": "2 L",
+    "symbol": "(",
+    "color": "light_red",
+    "skill": "rifle",
+    "range": 200,
+    "reload": 100,
+    "ranged_damage": { "damage_type": "bullet", "amount": 1000 },
+    "ammo": [ "308" ]
+  }
+]

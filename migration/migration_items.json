@@ -1,0 +1,17 @@
+[
+  {
+    "type": "MIGRATION",
+    "id": [ "god_armor" ],
+    "replace": "opg_god_armor"
+  },
+  {
+    "type": "MIGRATION",
+    "id": [ "god_blade" ],
+    "replace": "opg_god_blade"
+  },
+  {
+    "type": "MIGRATION",
+    "id": [ "god_rifle" ],
+    "replace": "opg_god_rifle"
+  }
+]

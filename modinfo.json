@@ -1,0 +1,12 @@
+
+[
+  {
+    "type": "MOD_INFO",
+    "id": "op_gear_mod",
+    "name": "Overpowered Gear Mod",
+    "authors": [ "pro" ],
+    "description": "Adds insanely powerful armor, weapons, and storage.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]
