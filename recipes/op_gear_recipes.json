@@ -46,5 +46,18 @@
     "time": "1 s",
     "autolearn": true,
     "components": []
+  },
+  {
+    "type": "recipe",
+    "result": "308",
+    "count": 1000,
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_AMMO",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "1 s",
+    "autolearn": true,
+    "components": []
   }
 ]
