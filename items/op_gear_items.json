@@ -7,6 +7,7 @@
     "description": "Armor of absolute power.",
     "weight": "1 g",
     "volume": "250 ml",
+    "longest_side": "60 cm",
     "material": [ "superalloy" ],
     "symbol": "[",
     "color": "yellow",
@@ -26,7 +27,7 @@
         "moves": 100
       }
     ],
-    "flags": [ "STURDY", "WATERPROOF" ]
+    "flags": [ "STURDY", "WATERPROOF", "NORMAL" ]
   },
   {
     "id": "opg_god_blade",
@@ -36,6 +37,7 @@
     "description": "Cuts through anything.",
     "weight": "500 g",
     "volume": "1 L",
+    "longest_side": "90 cm",
     "material": [ "steel" ],
     "symbol": "/",
     "color": "red",
@@ -50,19 +52,17 @@
     "description": "A weapon beyond science.",
     "weight": "1 kg",
     "volume": "2 L",
+    "longest_side": "100 cm",
     "symbol": "(",
     "color": "light_red",
     "skill": "rifle",
-    "ammo": [ "308", "762_51" ],
+    "ammo": [ "308" ],
     "ranged_damage": { "damage_type": "bullet", "amount": 1000 },
     "reload": 100,
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
         "rigid": true,
-        "magazine_well": "20 L",
-        "max_contains_volume": "20 L",
-        "max_contains_weight": "20 kg",
         "item_restriction": [ "308_magazine" ]
       }
     ],
@@ -70,22 +70,24 @@
   },
   {
     "id": "308_magazine",
-    "type": "MAGAZINE",
+    "type": "ITEM",
+    "subtypes": [ "MAGAZINE" ],
     "name": { "str": "Destroyer Magazine" },
     "description": "A magazine for the Reality Destroyer Rifle. It holds a massive amount of ammo.",
     "weight": "100 g",
     "volume": "500 ml",
+    "longest_side": "20 cm",
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_red",
-    "ammo_type": [ "308", "762_51" ],
-    "capacity": 1000,
+    "ammo_type": [ "308" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE",
         "rigid": true,
-        "ammo_restriction": { "308": 1000, "762_51": 1000 }
+        "ammo_restriction": { "308": 1000 }
       }
-    ]
+    ],
+    "flags": [ "MAG_COMPACT" ]
   }
 ]
